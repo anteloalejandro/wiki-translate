@@ -1,0 +1,23 @@
+{
+  "name": "wiki-translate",
+  "version": "0.1.0",
+  "description": "Provides functions to translate terms using Wikpedia articles",
+  "main": "translate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anteloalejandro/wiki-translate.git"
+  },
+  "keywords": [
+    "wikipedia",
+    "translate"
+  ],
+  "author": "Alejandro Antelo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/anteloalejandro/wiki-translate/issues"
+  },
+  "homepage": "https://github.com/anteloalejandro/wiki-translate#readme"
+}
