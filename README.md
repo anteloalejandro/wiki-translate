@@ -1,4 +1,4 @@
-# Wiki Translate
+# Wiki Translator
 
 Translate terms using wikipedia articles!
 

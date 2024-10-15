@@ -1,5 +1,5 @@
 {
-  "name": "@anteloalejandro/wiki-translate",
+  "name": "wiki-translator",
   "version": "0.1.0",
   "description": "Provides functions to translate terms using Wikpedia articles",
   "main": "translate.js",
