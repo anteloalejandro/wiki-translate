@@ -12,7 +12,7 @@
  * @typedef Pages
  * @prop {string} title
  * @prop {number} pageid
- * @prop {string} title
+ * @prop {string} snippet
  * @prop {string} timestamp
  * @prop {LangLink[]?} langlinks
  * @prop {PageProps[]?} pageprops
@@ -59,6 +59,7 @@ export async function search(term, langCode) {
 
   /** @type {Pages[]} result */
   const result = (await req.json()).query.search;
+  if (!result || result.length == 0) return [];
 
   const pagePropsReq = await fetch(
     `https://${langCode}.wikipedia.org/w/api.php?` + new URLSearchParams({
