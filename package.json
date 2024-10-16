@@ -1,6 +1,6 @@
 {
   "name": "wiki-translator",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Provides functions to translate terms using Wikpedia articles",
   "main": "translate.js",
   "type": "module",
